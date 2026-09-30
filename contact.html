@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEG Fabedougou - Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <span class="logo-icon">🏫</span>
+                <h1>CEG Fabedougou</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="apropos.html">À propos</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Contactez-nous</h1>
+                <p>Nous sommes à votre écoute pour toute question ou information</p>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>Nos coordonnées</h2>
+                        <p>Le CEG de Fabedougou vous accueille et vous répond dans les meilleurs délais.</p>
+                        
+                        <div class="info-item">
+                            <span class="icon">📞</span>
+                            <div>
+                                <strong>Téléphone</strong>
+                                <span>66 99 79 97</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <span class="icon">📍</span>
+                            <div>
+                                <strong>Adresse</strong>
+                                <span>Village de Fabedougou, Région des Tannounyan</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <span class="icon">🗺️</span>
+                            <div>
+                                <strong>Localisation</strong>
+                                <span>À environ 15 km de Banfora, non loin des cascades et des dômes</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <span class="icon">🕒</span>
+                            <div>
+                                <strong>Horaires</strong>
+                                <span>Lundi - Vendredi : 7h30 - 17h00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <h2>Envoyez-nous un message</h2>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="nom">Nom complet</label>
+                                <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Adresse email</label>
+                                <input type="email" id="email" name="email" placeholder="votre@email.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="sujet">Sujet</label>
+                                <input type="text" id="sujet" name="sujet" placeholder="Objet de votre message" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" placeholder="Écrivez votre message ici..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn-submit">Envoyer le message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 CEG Fabedougou — Tous droits réservés.</p>
+            <p>Région des Tannounyan · Village de Fabedougou · Tél : 66 99 79 97</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
